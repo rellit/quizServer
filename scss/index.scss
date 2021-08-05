@@ -1,0 +1,11 @@
+@import '_colors';
+@import '_layout';
+@import '_forms';
+
+#content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 100%;
+}

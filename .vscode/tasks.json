@@ -12,6 +12,16 @@
                 "kind": "build",
                 "isDefault": true
             }
+        },
+        {
+            "label": "sass",
+            "type": "shell",
+            "command": "sass --watch scss/index.scss:res/css/style.css",
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
         }
     ]
 }
